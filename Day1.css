@@ -1,0 +1,16 @@
+h6{
+    background-color: aqua;
+    text-align: center;
+    border : 2px solid peru;
+    padding: 20px;
+    margin: 40px;
+}
+
+
+/*
+
+When it comes to spacing inside a box, we have two properties:
+padding-  Inside the box
+margin-   Outside the box
+*/
+
