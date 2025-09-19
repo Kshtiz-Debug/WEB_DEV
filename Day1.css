@@ -2,15 +2,95 @@ h6{
     background-color: aqua;
     text-align: center;
     border : 2px solid peru;
-    padding: 20px;
+    /*padding: 20px;
+    or you can also use padding like this 
+    padding: 10px 20px 30px 40px;
+    */
     margin: 40px;
 }
 
 
 /*
-
 When it comes to spacing inside a box, we have two properties:
 padding-  Inside the box
 margin-   Outside the box
+
+These are the two ways of spacing in CSS
 */
 
+
+/*
+Now comes calling of a class
+Nd how to do that ?
+
+.classname{
+    property: value;
+}      
+    
+(.)-class selector
+like this
+*/
+
+
+/* ctrl + alt + down key */
+
+
+
+
+/*
+.displayInCss1{
+    display: block;
+    background-color: coral;
+    height: 32px;
+    width: 200px;
+}
+    
+*/
+
+
+
+/* We have height and width property too in CSS
+Height will give the height of the box
+Width will give the width of the box
+
+box or you can say whatever is present inside that class 
+*/
+/*with display set as block then it will take the full width available to it */
+/*
+.displayInCss2{
+    display: inline;
+    background-color: lightgreen;
+}
+*/
+
+/*While with display set as inline it will take only the width required to it */
+
+
+/* We will use the "height"  and "width" property only when needed or else it will take the default values that are set*/
+
+
+ 
+
+/* Now with INLINE the only difference is that it will not take the full width available to it
+    but it will take only the width required to it
+
+    So the attributes such as height and width will not work here
+    
+*/
+
+
+
+
+/* INLINE - BLOCK _ _ _ _ Combination of both inline and block*/
+.displayInCss1{
+    display: inline;
+    background-color: lightgreen;
+    height: 32px;
+    width: 200px;   
+}
+.displayInCss2{
+    display: inline-block;
+    background-color: lightgreen;
+    height: 32px;
+    width: 200px;   
+}
