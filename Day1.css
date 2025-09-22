@@ -94,3 +94,15 @@ box or you can say whatever is present inside that class
     height: 32px;
     width: 200px;   
 }
+
+
+
+/* Now difference between inline and inline-block is that
+   inline-block will take the height and width property
+   while inline will not take the height and width property
+*/
+
+/* So we can use inline-block when we want to use height and width property
+   but we don't want it to take the full width available to it
+*/
+
